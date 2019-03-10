@@ -264,8 +264,12 @@ header {
     }
 }
 
-.footer-callout a:hover {
-    background-color: #238e2d;
+.footer-callout a p:hover {
+    background-color: #aa1435;
+}
+
+.social-icons-list li:hover {
+    background-color: #aa1435;
 }
 
 /*------------------------Music section*/
@@ -280,36 +284,30 @@ header {
     margin: 0;
 }
 
-.music-playlist ul {
-    padding: 0;
+.music-playlist audio {
+    padding-top: 10px;
 }
 
-.music-playlist ul li {
-    padding-top: 5px;
+.music-playlist p {
+    padding-left: 20px;
+    color: #751223;
 }
 
-.music-playlist ul li a {
-    text-decoration: none;
-    color: #444038;
-    font-family: 'Enriqueta', serif;
+.music-description {
+    height: 70%;
+    padding-top: 30px;
 }
 
-.music-playlist ul li a i {
-    padding-right: 7px;
-}
-
-.music-paragraph {
-    
-}
-
-.music-paragraph-img {
+.music-description img {
+    height: 65%;
     float: right;
-    width: 80%;
+    clear: none;
 }
 
-.music-paragraph-img img {
-    width: 100%;
-    height: 100%;
+.music-description p {
+    font-size: 18px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 /*------------------------Video page section*/
@@ -319,7 +317,13 @@ header {
 }
 
 .video-playlist {
-    padding-top: 50px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.video-playlist-title {
+    padding-top: 0;
+    margin-top: 0;
 }
 
 .video-playlist .card a {
@@ -333,7 +337,7 @@ header {
 }
 
 .card-body {
-    width: 50%;
+    width: auto;
 }
 
 .card-body h5 {
@@ -341,6 +345,19 @@ header {
     font-family: 'Luckiest+Guy', serif;
     font-size: 21px;
     text-align: center;
+}
+
+.video {
+    text-align: center;
+}
+
+.video-embed-title {
+    width: 100%;
+    text-align: center;
+}
+
+.video-embed {
+    display: inline-block;
 }
 
 /*------------------------Events section*/
@@ -355,8 +372,57 @@ header {
     padding-top: 20px;
 }
 
-.form-table {
+#form-table {
     padding-top: 20px;
+}
+
+/*------------------------about section*/
+
+.about-page-section {
+    height: 70%;
+}
+
+.band-history {
+    border-left: 2px solid grey;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    border-left: 1px solid grey;
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item::before {
+    content: attr(dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item::after {
+    width: 18px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    border-right: 1px solid red;
+    content: '';
+    background-color: grey;
 }
 
 /*------------------------Footer*/
@@ -364,23 +430,31 @@ header {
 
 footer {
     height: 10%;
+    width: 100%;
     background-color: #5e5b69;
     color: #ffffff;
     padding: 0;
     margin: 0;
+    position: fixed;
 }
 
 .social-icons {
     height: 100%;
 }
 
+.social-icons h4 {
+    color: #ffffff;
+    display: inline-block;
+}
+
 .social-icons ul {
-    padding-top: 20px;
+    padding-top: 15px;
+    float: right;
 }
 
 @media (max-width: 767){
     .social-icons ul {
-        padding-top: 10;
+        padding-top: 6px;
         text-align: center;
     }
 }
@@ -388,8 +462,11 @@ footer {
 .social-icons-list li {
     display: inline-block;
     text-align: center;
-    height: 25px;
-    width: 25px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #8f8f8f;
+    margin-right: 10px;
 }
 
 @media (max-width:480px){
@@ -401,12 +478,15 @@ footer {
 }
 
 .social-icons-list li a {
-    font-size: 18px;
     text-decoration: none;
+    width: 100%;
+    height: 100%;
 }
 
 .social-icons-list li a i {
     color: #ffffff;
+    padding-top: 5px;
+    font-size: 18px;
 }
 
 .footer-callout a {
@@ -414,16 +494,12 @@ footer {
 }
 
 .footer-callout a p {
-    background-color: #25752c;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border: transparent;
-    padding-top: 2px;
-    padding-bottom: 2px;
+    background-color: #8f8f8f;
     padding-left: 5px;
-    margin-top: 20px;
-    color: #fff666;
+    margin-top: 18px;
+    color: #ffffff;
     font-size: 18px;
-    
+    text-align: center;
 }
 
 .footer-callout a p i {
