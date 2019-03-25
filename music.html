@@ -3,6 +3,8 @@
 <html class="music-bg">
 
 <head>
+    <title>The Monkees</title>
+    
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
@@ -15,7 +17,7 @@
     <header class="music-page-header container-fluid">
         <div class="row row-table">
             <div class="row nav-landing-page-row">
-                <div class=" nav col-xs-12 col-sm-12 hidden-md hidden-lg hidden-xl">
+                <div class=" nav col-xs-12 hidden-sm hidden-md hidden-lg hidden-xl">
                     <ul>
                         <li id="home-nav" class="hvr-sweep-to-right"><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i><span class="hidden-xs">Home</span></a></li>
                         <li id="music-nav" class="hvr-sweep-to-right"><a href="music.html"><i class="fa fa-music" aria-hidden="true"></i><span class="hidden-xs">Music</span></a></li>
@@ -25,35 +27,43 @@
                     </ul>
                 </div>
             </div>
-            <div class="image-container col-xs-12 col-sm-6 col-md-3">
-                <div class="music-page-image"><a href="about.html"><img src="../assets/images/davyjonespic.PNG" alt="picture of Davy Jones"></img></a></div>
+            <div class="image-container hidden-xs col-sm-3 col-md-3">
+                <div class="music-page-image"><a href="https://en.wikipedia.org/wiki/Davy_Jones_(musician)" target="_blank">
+                    <img src="../assets/images/davyjonespic.PNG" alt="picture of Davy Jones"></img></a>
+                </div>
                 <div class="image-description">
                     <p>
-                        <strong>-Davy Jones</strong> Lead singer, guitar, percussion
+                        <strong>-Davy Jones</strong><span class="hidden-sm">Lead singer, guitar, percussion</span>
                     </p>
                 </div>
             </div>
-            <div class="image-container col-xs-12 col-sm-6 col-md-3">
-                <div class="music-page-image"><a href="about.html"><img src="../assets/images/mikenesmithpic.PNG" alt="picture of Micheal Nesmith"></img></a></div>
+            <div class="image-container hidden-xs col-sm-3 col-md-3">
+                <div class="music-page-image"><a href="https://en.wikipedia.org/wiki/Michael_Nesmith" target="_blank">
+                    <img src="../assets/images/mikenesmithpic.PNG" alt="picture of Micheal Nesmith"></img></a>
+                </div>
                 <div class="image-description">
                     <p>
-                        <strong>-Micheal Nesmith</strong> Vocals, guitar,
+                        <strong>-Micheal Nesmith</strong><span class="hidden-sm">Vocals, guitar</span>
                     </p>
                 </div>
             </div>
-            <div class="image-container col-xs-12 col-sm-6 col-md-3">
-                <div class="music-page-image"><a href="about.html"><img src="../assets/images/mickydolenzpic.PNG" alt="picture of Micky Dolenz"></img></a></div>
+            <div class="image-container hidden-xs col-sm-3 col-md-3">
+                <div class="music-page-image"><a href="https://en.wikipedia.org/wiki/Micky_Dolenz" target="_blank">
+                    <img src="../assets/images/mickydolenzpic.PNG" alt="picture of Micky Dolenz"></img></a>
+                </div>
                 <div class="image-description">
                     <p>
-                        <strong>-Micky Dolenz</strong> Guitar, drums, vocals
+                        <strong>-Micky Dolenz</strong><span class="hidden-sm">Guitar, drums, vocals</span>
                     </p>
                 </div>
             </div>
-            <div class="image-container col-xs-12 col-sm-6 col-md-3">
-                <div class="music-page-image"><a href="about.html"><img src="../assets/images/petertorkpic.PNG" alt="picture of Peter Tork"></img></a></div>
+            <div class="image-container hidden-xs col-sm-3 col-md-3">
+                <div class="music-page-image"><a href="https://en.wikipedia.org/wiki/Peter_Tork" target="_blank">
+                    <img src="../assets/images/petertorkpic.PNG" alt="picture of Peter Tork"></img></a>
+                </div>
                 <div class="image-description">
                     <p>
-                        <strong>-Peter Tork</strong> Guitar, keyboard, banjo, vocals
+                        <strong>-Peter Tork</strong><span class="hidden-sm">Guitar, keyboard, banjo, vocals</span>
                     </p>
                 </div>
             </div>
@@ -62,7 +72,7 @@
 
     <section class="music-page-section container-fluid">
         <div class="row nav-landing-page-row">
-            <div class="nav hidden-xs hidden-sm col-md-2">
+            <div class="nav hidden-xs col-sm-2 col-md-2">
                 <ul>
                     <li id="home-nav" class="hvr-sweep-to-right"><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i><span class="hidden-xs">Home</span></a></li>
                     <li id="music-nav" class="hvr-sweep-to-right"><a href="music.html"><i class="fa fa-music" aria-hidden="true"></i><span class="hidden-xs">Music</span></a></li>
@@ -71,42 +81,48 @@
                     <li id="about-nav" class="hvr-sweep-to-right"><a href="about.html"><i class="fa fa-book" aria-hidden="true"></i><span class="hidden-xs">About</span></a></li>
                 </ul>
             </div>
-            <div class="col-xs-12 col-md-3 music-playlist" id="playlist" style="overflow:auto; height:100%">
+            <div class="col-xs-12 col-sm-10 col-md-3 music-playlist" id="playlist" style="overflow:auto; height:100%">
+                <div class="playlist-title">
+                    <h5>Listen to some of our greatest hits</h5>
+                </div>
                 <audio src="../assets/music/song01" controls>All of your toys</audio>
-                <p>All of Your Toys</p>
+                <h4>All of Your Toys</h4>
                 <audio src="../assets/music/song02" controls>All of your toys</audio>
-                <p>Daddy's Song</p>
+                <h4>Daddy's Song</h4>
                 <audio src="../assets/music/song03" controls>All of your toys</audio>
-                <p>Daily Nightly</p>
+                <h4>Daily Nightly</h4>
                 <audio src="../assets/music/song04" controls>All of your toys</audio>
-                <p>Daydream Believer</p>
+                <h4>Daydream Believer</h4>
                 <audio src="../assets/music/song05" controls>All of your toys</audio>
-                <p>Goin' Down</p>
+                <h4>Goin' Down</h4>
                 <audio src="../assets/music/song06" controls>All of your toys</audio>
-                <p>I'll Be Back Upon My Feet</p>
+                <h4>I'll Be Back Upon My Feet</h4>
                 <audio src="../assets/music/song07" controls>All of your toys</audio>
-                <p>I'm a Believer</p>
+                <h4>I'm a Believer</h4>
                 <audio src="../assets/music/song08" controls>All of your toys</audio>
-                <p>Last Train to Clarksville</p>
+                <h4>Last Train to Clarksville</h4>
                 <audio src="../assets/music/song09" controls>All of your toys</audio>
-                <p>Saturday's Child</p>
+                <h4>Saturday's Child</h4>
                 <audio src="../assets/music/song10" controls>All of your toys</audio>
-                <p>Love is Only Sleeping</p>
+                <h4>Love is Only Sleeping</h4>
                 <audio src="../assets/music/song11" controls>All of your toys</audio>
-                <p>Mary Mary</p>
+                <h4>Mary Mary</h4>
                 <audio src="../assets/music/song12" controls>All of your toys</audio>
-                <p>Papa Genes Blues</p>
+                <h4>Papa Genes Blues</h4>
                 <audio src="../assets/music/song13" controls>All of your toys</audio>
-                <p>Sweet Young Thing</p>
+                <h4>Sweet Young Thing</h4>
                 <audio src="../assets/music/song14" controls>All of your toys</audio>
-                <p>Randy Scouse git</p>
+                <h4>Randy Scouse git</h4>
                 <audio src="../assets/music/song15" controls>All of your toys</audio>
-                <p>Riu Chiu</p>
+                <h4>Riu Chiu</h4>
             </div>
-            <div class="col-md-7 music-description">
-                <img src="../assets/images/bandpic.PNG"></img>
-                <p>The Monkees music was hugely popular and widely known throughout the late 1960's and early 1970's The bands first single <a href="https://www.youtube.com/watch?v=ZcXpKiY2MXE">"Last Train to Clarksville"</a>, proved an immediate hit, shooting
-                    to #1 in the United States for a week. Weeks later, their first album "The Monkees", topped the charts for 13 weeks. Their next three albums were all consecutive #1's on the <a href="https://www.billboard.com/charts/billboard-200">Billboard 200</a>.
+            <div class="col-xs-12 col-sm-12 col-md-7 music-description">
+                <img src="../assets/images/bandpic.PNG" class="hidden-xs"></img>
+                <p>The Monkees music was hugely popular and widely known throughout the late 1960's and early 1970's 
+                    The bands first single <a href="https://www.youtube.com/watch?v=ZcXpKiY2MXE" target="_blank">"Last Train to Clarksville"</a>, 
+                    proved an immediate hit, shooting 
+                    to #1 in the United States for a week. Weeks later, their first album "The Monkees", topped the charts for 13 weeks. 
+                    Their next three albums were all consecutive #1's on the <a href="https://www.billboard.com/charts/billboard-200" target="_blank">Billboard 200</a>.
                     Over the next few years, the band produced 7 top 10 singles, 3 #1's and became a global smash hit with lively concerts and tours.
                 </p>
             </div>
@@ -114,28 +130,26 @@
     </section>
 
     <footer class="container-fluid">
-        <div class="row footer">
-            <div class="hidden-xs hidden-sm col-md-1"></div>
-            <div class="col-xs-12 col-sm-12 col-md-4">
-                <div class="footer-callout">
-                    <a href="events.html">
-                        <p>We are available to play at your event!<i class="fa fa-microphone"></i></p>
-                    </a>
-                </div>
-            </div>
-            <div class="hidden-xs hidden-sm col-md-1"></div>
-            <div class="col-xs-12 col-sm-12 col-md-6 social-icons">
-                <ul class="social-icons-list">
-                    <li><a target="_blank" href="https://en-gb.facebook.com/TheMonkees/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                    <li><a target="_blank" href="https://www.instagram.com/themonkees/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                    <li><a target="_blank" href="https://twitter.com/themonkees?lang=en"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                    <li><a target="_blank" href="https://www.youtube.com/user/themonkees"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
-                    <li><a target="_blank" href="https://www.pinterest.co.uk/edwardelricfan/the-monkees/"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
-                    <li><a target="_blank" href="https://open.spotify.com/artist/320EPCSEezHt1rtbfwH6Ck"><i class="fa fa-spotify" aria-hidden="true"></i></a></li>
-                </ul>
-            </div>
-        </div>
-    </footer>
+		<div class="row">
+			<div class="col-xs-12 col-sm-6 col-md-6">
+				<div class="footer-callout">
+					<a href="events.html">
+						<p>We are available to play at your event!<i class="fa fa-microphone"></i></p>
+					</a>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-6 social-icons">
+				<ul class="social-icons-list">
+					<li><a target="_blank" href="https://en-gb.facebook.com/TheMonkees/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+					<li><a target="_blank" href="https://www.instagram.com/themonkees/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+					<li><a target="_blank" href="https://twitter.com/themonkees?lang=en"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+					<li><a target="_blank" href="https://www.youtube.com/user/themonkees"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+					<li><a target="_blank" href="https://www.pinterest.co.uk/edwardelricfan/the-monkees/"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+					<li><a target="_blank" href="https://open.spotify.com/artist/320EPCSEezHt1rtbfwH6Ck"><i class="fa fa-spotify" aria-hidden="true"></i></a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
 
 </body>
 

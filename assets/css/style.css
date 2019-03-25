@@ -1,10 +1,16 @@
-@import url('https://fonts.googleapis.com/css?family=Anton|Francois+One|Luckiest+Guy|Shadows+Into+Light+Two|Staatliches|Acme|Enriqueta');
+@import url('https://fonts.googleapis.com/css?family=Cuprum|Anton|Francois+One|Luckiest+Guy|Shadows+Into+Light+Two|Staatliches|Acme|Enriqueta');
 
 
-/*------------------------Landing page general*/
+/*------------------------General*/
 
 html {
     position: relative;
+}
+
+@media (max-width: 767){
+    html {
+        position: absolute;
+    }
 }
 
 .home-bg
@@ -15,11 +21,17 @@ html {
 
 header {
     background-color: #18247d;
+    height: 20%;
 }
 
+.container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
+/*------------------------Landing page images*/
 
 .header-section {
-    height: 20%;
     width: 100%;
     padding: 0;
     margin: 0;
@@ -27,7 +39,6 @@ header {
 
 @media (max-width: 480px){
     .header-section {
-        height: 10%;
         width: 100%;
         padding: 0;
         margin: 0;
@@ -39,13 +50,15 @@ header {
     margin: 0;
     height: 70%;
     width: 100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
-@media (max-width: 480px){
+@media (max-width: 767px){
     .cover-page-section {
         padding: 0;
         margin: 0;
-        height: 80%;
+        height: auto;
         width: 100%;
     }
 }
@@ -66,15 +79,17 @@ header {
     }
 }
 
-/*------------------------Landing page images*/
 
 .landing-page-center {
     padding-left: 0;
+    height: 100%;
 }
 
 @media (max-width: 767px){
    .landing-page-center {
         text-align: center;
+        padding-right: 10px;
+        padding-left: 10px;
     } 
 }
 
@@ -106,17 +121,22 @@ header {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.landing-page-quote p {
+    font-family: 'Shadows+Into+Light+Two', cursive;
+    font-size: 15px;
+}
+
+.landing-page-quote cite {
+    font-size: 10px;
+}
 
 /*------------------------Music page header*/
-
-.music-page-header {
-    height: 20%;
-}
 
 .image-container {
     margin-top: 15px;
     margin-bottom: 15px;
 }
+
 
 .music-page-image {
     height: 80px;
@@ -139,6 +159,12 @@ header {
     color: #ffffff;
 }
 
+@media (max-width: 992px){
+    .image-description {
+        width: 60px;
+    }
+}
+
 .image-description p {
     font-family: 'Enriqueta' serif;
 }
@@ -152,7 +178,9 @@ header {
 .nav-landing-page-row {
     padding-top: 0px;
     margin: 0px;
+    vertical-align: middle;
 }
+    
 
 .nav ul {
     margin-left: 0;
@@ -165,8 +193,10 @@ header {
         margin-left: 0;
         padding-left: 0;
         padding-top: 0px;
+        text-align: center;
     }
 }
+
 
 .nav ul li {
     height: 50px;
@@ -175,9 +205,10 @@ header {
     margin-left: 0;
     margin-top: 10px;
     padding-left: 0;
+    display: block;
 }
 
-@media (max-width: 480px){
+@media (max-width: 767px){
    .nav ul li {
     height: 30px;
     width: 70px;
@@ -185,6 +216,7 @@ header {
     margin-left: 10;
     margin-top: 10px;
     padding-left: 0;
+    display: inline-block;
    } 
 }
 
@@ -194,14 +226,14 @@ header {
     width: 100%;
     height: 100%;
     color: #ffffff;
-    font-family: 'Shadows+Into+Light+Two', cursive;
+    font-family: 'Acme', sans-serif;
     text-transform: uppercase;
     margin: 0;
     padding-top: 8px;
-    font-size: 20px;
+    font-size: 22px;
 }
 
-@media (max-width: 480px){
+@media (max-width: 767px){
     .nav ul li a {
         font-size: 20px;
         padding-top: 3px
@@ -254,7 +286,8 @@ header {
     -o-transition: all 0.2s ease-in;
 }
 
-@media (max-width: 480px){
+
+@media (max-width: 767px){
    .nav ul li:hover {
         width: 70px;
         transition: all 0.2s ease-in;
@@ -279,18 +312,36 @@ header {
     padding: 0;
 }
 
+@media (max-width: 992px){
+    .music-page-section {
+        height: auto;
+        padding: 0;
+        position: relative;
+    }
+}
+
 .music-playlist {
     padding: 0px;
     margin: 0;
 }
 
-.music-playlist audio {
-    padding-top: 10px;
+.playlist-title h5 {
+    font-family: 'Cuprum', sans-serif;
+    color: #000;
+    font-size: 20px;
 }
 
-.music-playlist p {
+.music-playlist audio {
+    padding-top: 10px;
+    width: 100%;
+    padding-right: 5px;
+}
+
+.music-playlist h4 {
     padding-left: 20px;
     color: #751223;
+    font-family: 'Acme', sans-serif;
+    font-size: 18px;
 }
 
 .music-description {
@@ -301,19 +352,30 @@ header {
 .music-description img {
     height: 65%;
     float: right;
-    clear: none;
+    clear: left;
+    margin-bottom: 20px;
+    margin-left: 20px;
 }
 
 .music-description p {
-    font-size: 18px;
+    font-size: 20px;
     padding-right: 20px;
     padding-left: 20px;
+    font-family: 'Cuprum', sans-serif;
 }
 
 /*------------------------Video page section*/
 
 .video-page-section {
     height: 70%;
+}
+
+@media (max-width: 992px){
+    .video-page-section {
+        height: auto;
+        padding: 0;
+        position: relative;
+    }
 }
 
 .video-playlist {
@@ -362,14 +424,23 @@ header {
 
 /*------------------------Events section*/
 
-.events-section-page {
+.events-page-section {
     padding: 0;
     margin: 0;
     height: 70%;
 }
 
+@media (max-width: 992px){
+    .events-page-section {
+        height: auto;
+        padding: 0;
+        position: relative;
+    }
+}
+
 .form-section {
     padding-top: 20px;
+    display: inline-block;
 }
 
 #form-table {
@@ -382,9 +453,23 @@ header {
     height: 70%;
 }
 
+@media (max-width: 992px){
+    .about-page-section {
+        height: auto;
+        padding: 0;
+        position: relative;
+    }
+}
+
+@media (max-width: 767){
+    .about-page-section {
+        height: auto;
+    }
+}
+
 .band-history {
     border-left: 2px solid grey;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: 20px;
 }
 
@@ -425,21 +510,39 @@ header {
     background-color: grey;
 }
 
+.about-bio p {
+    font-size: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: 'Cuprum', sans-serif;
+}
+
 /*------------------------Footer*/
 
 
 footer {
-    height: 10%;
+    height:10%;
     width: 100%;
     background-color: #5e5b69;
     color: #ffffff;
     padding: 0;
     margin: 0;
-    position: fixed;
+}
+
+@media (max-width: 767px){
+    footer {
+        height: 20%;
+        margin-top: 10px;
+        position: relative;
+    }
+}
+
+.footer-row {
+    text-align: center;
 }
 
 .social-icons {
-    height: 100%;
+    padding-right: 20;
 }
 
 .social-icons h4 {
@@ -456,7 +559,12 @@ footer {
     .social-icons ul {
         padding-top: 6px;
         text-align: center;
+        float: none;
     }
+}
+
+.social-icons-list {
+    padding-left: 0;
 }
 
 .social-icons-list li {
@@ -473,7 +581,6 @@ footer {
     .social-icons-list li {
         display: inline-block;
         padding-top: 2px;
-        padding-right: 8px;
     }
 }
 
