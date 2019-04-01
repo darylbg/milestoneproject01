@@ -4,7 +4,6 @@
 
 <head>
 	<title>The Monkees</title>
-	
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
@@ -14,7 +13,8 @@
 
 <body>
     <section>
-        <h1>THE MONKEES, rockband website</h1><br>
+        <h1>THE MONKEES</h1>
+        <h3>ROCKBAND WEBSITE</h3><br>
         <p>
             This website is designed to give viewers an overview of the bands 50 year history
             and highlight their availability to perform for smaller events. As well, this site
@@ -74,18 +74,16 @@
     <section>
         <h1>Deployment</h1><br>
         <ul>
-            <li>Deploy this website on Github</li>
+            <li>Deploy this website on Github</li><br>
             <p>
-                → select the repository to be deployed
-                
-                → in the repository 'settings', select 'source' then 'master branch' from the dropdowm
-                
+                → select the repository to be deployed<br>
+                → in the repository 'settings', select 'source' then 'master branch' from the dropdowm<br>
                 → Rename the repository and save it
             </p>
         </ul>     
     </section>
     <section>
-        <h1>Credits</h1>>
+        <h1>Credits</h1>
         <p>This Website was built entirely by me, Daryl Blough</p>
         <ul>
         <h3>Content</h3>
@@ -101,7 +99,7 @@
             </li>
         <h3>Acknowledgements</h3>
             <li>
-                I was inspired for the design of this website after looking over various other <a href="https://designmodo.com/rock-band-website-designs/">rock band website</a> 
+                I was inspired for the design of this website after looking over various other <a href="https://designmodo.com/rock-band-website-designs/">rock band websites</a> 
             </li>
         </ul>     
     </section>
