@@ -106,9 +106,7 @@
 <footer>
     <h2>WIREFRAME MOCKUPS</h2>
     <h4>these images are pictures of the initial wireframes i used to outline my website with</h4>
-    <div>
-        
-    </div>
+    <div></div>
 </footer>
 
 </html>
