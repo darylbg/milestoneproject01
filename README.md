@@ -28,7 +28,8 @@
             <li>expansive playlist for those who want to relive bands highlights</li>
             <li>extensive music video list for younger fans to see what the band looked like</li>
             <li>easy access page for contacting and hiring the band</li>
-            <li>wireframes and mockups done on pen and paper and can be found in the footer of this readme file</li>
+            <li>wireframes and mockups done on pen and paper and can be found in the footer of this readme file.
+		(the images are displayed on edge but each one is a link which will open the img correctly faced)</li>
         </ul>
     </section>
     <section>
