@@ -106,11 +106,19 @@
 <footer>
     <h2>WIREFRAME MOCKUPS</h2>
     <h4>these images are pictures of the initial wireframes i used to outline my website with</h4>
-    <div>![2019_04_01 19_05 Office Lens (2)](https://user-images.githubusercontent.com/44724776/55353645-c4453c00-54bb-11e9-98da-3e6bbf3860ed.jpg)
+    <div>
+	    
+![2019_04_01 19_05 Office Lens (2)](https://user-images.githubusercontent.com/44724776/55353645-c4453c00-54bb-11e9-98da-3e6bbf3860ed.jpg)
+
 ![2019_04_01 19_07 Office Lens (1)](https://user-images.githubusercontent.com/44724776/55353646-c4453c00-54bb-11e9-9266-f3590c1592de.jpg)
+
 ![2019_04_01 19_07 Office Lens](https://user-images.githubusercontent.com/44724776/55353647-c4453c00-54bb-11e9-9f4d-e3c872b1b47d.jpg)
+
 ![2019_04_01 19_08 Office Lens](https://user-images.githubusercontent.com/44724776/55353648-c4ddd280-54bb-11e9-868c-c812149a1cab.jpg)
-![2019_04_01 19_09 Office Lens](https://user-images.githubusercontent.com/44724776/55353649-c4ddd280-54bb-11e9-9aa0-8553ceab1906.jpg)</div>
+
+![2019_04_01 19_09 Office Lens](https://user-images.githubusercontent.com/44724776/55353649-c4ddd280-54bb-11e9-9aa0-8553ceab1906.jpg)
+
+</div>
 </footer>
 
 </html>
