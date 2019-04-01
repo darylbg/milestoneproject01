@@ -13,11 +13,6 @@ html {
     }
 }
 
-.home-bg
-.music-bg
-.video-bg {
-    background-color: #FAFCFE;
-}
 
 header {
     background-color: #18247d;
@@ -130,11 +125,13 @@ header {
     font-size: 10px;
 }
 
-/*------------------------Music page header*/
+/*------------------------Page header*/
 
 .image-container {
     margin-top: 15px;
     margin-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 0px;
 }
 
 
@@ -594,6 +591,11 @@ footer {
     color: #ffffff;
     padding-top: 5px;
     font-size: 18px;
+}
+
+.footer-callout {
+    padding-right: 10%;
+    padding-left: 10%;
 }
 
 .footer-callout a {
