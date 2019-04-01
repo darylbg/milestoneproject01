@@ -28,7 +28,7 @@
             <li>expansive playlist for those who want to relive bands highlights</li>
             <li>extensive music video list for younger fans to see what the band looked like</li>
             <li>easy access page for contacting and hiring the band</li>
-            <li>wireframes and mockups done on pen and paper <a href="">here</a></li>
+            <li>wireframes and mockups done on pen and paper and can be found in the footer of this readme file</li>
         </ul>
     </section>
     <section>
@@ -87,21 +87,28 @@
         <ul>
         <h3>Content</h3>
             <li>
-                Although totally rewritten by me, the page content was sourced from <a href="https://en.wikipedia.org/wiki/The_Monkees">The Monkees Wiki page</a>
+                Although totally rewritten by me, the page content was sourced from <a href="https://en.wikipedia.org/wiki/The_Monkees" target="_blank">The Monkees Wiki page</a>
             </li>
             <li>
-                the timeling was inspired from <a href="https://calendar.songfacts.com/timeline/the-monkees/">Here</a>
+                the timeling was inspired from <a href="https://calendar.songfacts.com/timeline/the-monkees/" target="_blank">Here</a>
             </li>
         <h3>Media</h3>
             <li>
-                the pictures were taken from a <a href="https://images.google.com/">google image search</a> 
+                the pictures were taken from a <a href="https://images.google.com/" target="_blank">google image search</a> 
             </li>
         <h3>Acknowledgements</h3>
             <li>
-                I was inspired for the design of this website after looking over various other <a href="https://designmodo.com/rock-band-website-designs/">rock band websites</a> 
+                I was inspired for the design of this website after looking over various other <a href="https://designmodo.com/rock-band-website-designs/" target="_blank">rock band websites</a> 
             </li>
         </ul>     
     </section>
 </body>
+<footer>
+    <h2>WIREFRAME MOCKUPS</h2>
+    <h4>these images are pictures of the initial wireframes i used to outline my website with</h4>
+    <div>
+        
+    </div>
+</footer>
 
 </html>
