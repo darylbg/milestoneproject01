@@ -385,6 +385,10 @@ header {
     margin-top: 0;
 }
 
+.video-playlist .card {
+    background-color: #fff;
+}
+
 .video-playlist .card a {
     text-decoration: none;
     background-color: #ffffff;
@@ -392,7 +396,7 @@ header {
 }
 
 .card-img-top {
-    height: 25%;
+    height: %;
 }
 
 .card-body {
